@@ -1,0 +1,2 @@
+# Division-Elimination-Algorithm
+Given an input stream connected to a collection of division standings we determine for each division which teams have been eliminated  from the playoffs. For each team in each division we create a flow network and determine the MaxFlow in that network. If the MaxFlow exceeds the number of inter-divisional games between all other teams in the division, the current team is eliminated.
